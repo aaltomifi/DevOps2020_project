@@ -7,6 +7,7 @@
   "artifacts": {
     "type": "S3",
     "location": "https://s3.console.aws.amazon.com/s3/buckets/s3devops/?region=eu-north-1"
-  }
+  },
+  "serviceRole": "arn:aws:iam::981782274262:role/s3awsapi"
 }
 
