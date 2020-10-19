@@ -7,9 +7,8 @@
   "artifacts": {
     "type": "S3",
     "location": "https://s3.console.aws.amazon.com/s3/buckets/s3devops/?region=eu-north-1"
-  }
-},
-{
+  },
+  {
   "name": "s3jsonapi",
   "source": {
     "type": "S3",
