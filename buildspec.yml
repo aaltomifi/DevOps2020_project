@@ -24,8 +24,8 @@ phase:
       - yarn build
 artifacts:
   files:
-    - artifact.json
-    - s3info.json
+    #- artifact.json
+    #- s3info.json
   discard-paths: no
   base-directory: dist              
    
