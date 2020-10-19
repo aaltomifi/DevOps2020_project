@@ -13,6 +13,8 @@ phase:
   pre_build:
     commands:
       - echo install dependencies
+      - npm install 
+      - npm install -g angular/cli
       - yarn
   build:
     commands:
@@ -22,8 +24,9 @@ phase:
       - yarn build
 artifacts:
   files:
-    - "artifact.json"
-    - "s3info.json"
+    - '**/*'
+    #- "artifact.json"
+    #- "s3info.json"
   discard-paths: no
   base-directory: dist              
    
