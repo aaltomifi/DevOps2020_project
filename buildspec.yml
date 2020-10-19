@@ -26,6 +26,6 @@ artifacts:
   files:
     - ./artifact.json
     - ./s3info.json
-  discard-paths: yes
+  discard-paths: no
   base-directory: 'src'            
    
