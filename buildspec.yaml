@@ -23,3 +23,4 @@
   "serviceRole": "arn:aws:iam::981782274262:role/s3awsapi",
   },
 }
+}
