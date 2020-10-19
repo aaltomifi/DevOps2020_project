@@ -1,4 +1,4 @@
-versiom: 0.2
+version: 0.2
 
 phase:
   install:
@@ -24,8 +24,8 @@ phase:
       - yarn build
 artifacts:
   files:
-    #- artifact.json
-    #- s3info.json
+    - artifact.json
+    - s3info.json
   discard-paths: no
   base-directory: dist              
    
