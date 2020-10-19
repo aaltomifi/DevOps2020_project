@@ -1,0 +1,12 @@
+{
+  "name": "s3devops",
+  "source": {
+    "type": "S3",
+    "location": "https://s3.console.aws.amazon.com/s3/buckets/s3devops/?region=eu-north-1"
+  },
+  "artifacts": {
+    "type": "S3",
+    "location": "https://s3.console.aws.amazon.com/s3/buckets/s3devops/?region=eu-north-1"
+  }
+}
+
