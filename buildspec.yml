@@ -1,0 +1,9 @@
+    artifacts:
+
+      files:
+
+        - '*'
+
+      discard-paths: yes
+
+      base-directory: 'src'
