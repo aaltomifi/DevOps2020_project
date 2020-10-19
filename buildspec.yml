@@ -27,5 +27,5 @@ artifacts:
     - artifact.json
     - s3info.json
   discard-paths: no
-  base-directory: 'public'            
+  base-directory: 'src'            
    
